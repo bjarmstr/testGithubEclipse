@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+@charset "ISO-8859-1";
+/*
+Color Pallet
+#003049 -almost black
+#D62828 - red
+#F77F00 - orange
+#FCBF49 -light orange
+#EAE2B7 - cream
+
+*/
+
+/* Global Styles -------------------------------*/
+body{
+	font-family: "Big Calson", Arial, sans-serif;
+	color: #003049;
+	margin: 0;
+	padding: 0;
+	
+}
+img{
+	width: 300px;
+}
+
+h2{
+	margin: 0;
+}
+
+h3 + p {
+	font-style: italic;
+}
+
+h3 ~ p {
+	margin: 0;
+}
+
+a{
+	color: #D62828;
+}
+
+a:hover{
+	text-decoration: none
+}
+
+a.btn{
+	dislplay: inline-block;
+	color: #EAE2B7;
+	background: #F77F00;
+	text-decoration: none;
+	padding: 8px;
+	border-radius: 4px;
+}
+
+a:hover.btn{
+	color: purple;
+}
+
+
+
+.content-wrap{
+	width: 800px;
+	margin: auto;
+	/*background: #EAE2B7;*/
+	padding: 15px 0;
+	
+}
+
+/* Profile ----------------------------------------*/
+header{
+	background:#FCBF49;
+	text-align: center;
+
+}
+
+/* Projects -------------------------------------*/
+.projects{
+	background:#EAE2B7;
+
+}
+
+.projects a {
+	color: #D62828;
+}
+
+/* Work EXP___*/
+.work
+{
+	background:#EAE2B7;
+}
+.job-item{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 20px;
+}
+
+
+/* Contact Info ------------------------*/
+footer{
+	background:#FCBF49;
+	color: #D62828;
+	text-align: center;
+}
+.contact-list{
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content:center;
+	}
+.contact-list a{
+	padding: 15px;
+	display: line-block;
+}
